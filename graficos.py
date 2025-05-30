@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-# Carregar o conjunto de dados (assumindo que está salvo como CSV)
-# Se for um arquivo Excel, substitua por: df = pd.read_excel('flood_risk_dataset_india 11.xlsx')
+
 df = pd.read_excel('flood_risk_dataset_india 11.xlsx')
 
 # Gráfico 1: Gráfico de Barras para Inundações Históricas (Variável Discreta)
